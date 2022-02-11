@@ -77,28 +77,28 @@ if (isset($_POST["ubah"])) {
            
             <div class="form-group">
                 <label for="kd_barang">Kode Barang : </label>
-                <input type="hidden" name="kd_barang" id="kd_barang" required value="<?= $brg["kd_barang"]; ?>" autocomplete="off" class="form-control" placeholder="Masukkan Kd Barang" >
-                <input type="text" name="kd_barang" id="kd_barang" required value="<?= $brg["kd_barang"]; ?>" autocomplete="off" class="form-control" placeholder="Masukkan Kd Barang" disabled>
+                <input type="hidden" name="kd_barang" id="kd_barang" required value="<?= $brg["kd_barang"]; ?>" autocomplete="off" class="form-control" placeholder="" >
+                <input type="text" name="kd_barang" id="kd_barang" required value="<?= $brg["kd_barang"]; ?>" autocomplete="off" class="form-control" placeholder="" disabled>
             </div>
 
             <div class="form-group">
                 <label for="nama_barang">Nama Barang : </label>
-                <input type="text" name="nama_barang" id="nama_barang" required value="<?= $brg["nama_barang"]; ?>" autocomplete="off"class="form-control" placeholder="Masukkan Nama Pengarang">
+                <input type="text" name="nama_barang" id="nama_barang" required value="<?= $brg["nama_barang"]; ?>" autocomplete="off"class="form-control" placeholder="Nama Barang">
             </div>
 
             <div class="form-group">
                 <label for="satuan">Satuan : </label>
-                <input type="text" name="satuan" id="satuan" required value="<?= $brg["satuan"]; ?>" autocomplete="off"class="form-control" placeholder="Masukkan Penerbit Buku">
+                <input type="text" name="satuan" id="satuan" required value="<?= $brg["satuan"]; ?>" autocomplete="off"class="form-control" placeholder="Satuan Barang">
             </div>
 
             <div class="form-group">
                 <label for="harga">Harga : </label>
-                <input type="number" name="harga" id="harga" required value="<?= $brg["harga"]; ?>" class="form-control" placeholder="Masukkan Kode Buku">
+                <input type="number" name="harga" id="harga" required value="<?= $brg["harga"]; ?>" class="form-control" placeholder="Harga Barang">
             </div>
 
             <div class="form-group">
                 <label for="jumlah">Jumlah Barang : </label>
-                <input type="number" name="jumlah" id="jumlah" required value="<?= $brg["jumlah"]; ?>" class="form-control" placeholder="Masukkan Jumlah Barang">
+                <input type="number" name="jumlah" id="jumlah" required value="<?= $brg["jumlah"]; ?>" class="form-control" placeholder="Jumlah Barang">
             </div>
 
 
